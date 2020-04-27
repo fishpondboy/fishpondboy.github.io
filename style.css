@@ -1,0 +1,32 @@
+/*Orginal--> https://css-tricks.com/snippets/css/typewriter-effect/ */
+/*Edited by IYKE4LIFE*/
+.typewriter {
+    margin-top: 120%;
+}
+
+.typewriter p {
+    /* Ensures the content is not revealed until the animation */
+    overflow: hidden;
+    /* Keeps the content on a single line*/
+    white-space: nowrap;
+    /* Gives that scrolling effect as the typing happens */
+    margin: 0 auto;
+    /* Adjust as needed */
+    letter-spacing: .15em;
+    animation: typing 8s steps(40, end) infinite;
+    color: cornsilk;
+    animation-delay: 22s;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        color: orange;
+        width: 0
+    }
+
+    to {
+        color: orange;
+        width: 100%
+    }
+}
